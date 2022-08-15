@@ -14,12 +14,12 @@ function GameResult() {
         const result = handleResult()
         setTimeout(() => {
             setLoading(false)
-            if (result == true) {
+            if (result ===true) {
                 setScore(prev => prev + 1);
                 setText("YOU WIN")
 
             }
-            else if (result == false) {
+            else if (result === false) {
                 setScore(prev => prev - 1); setText("YOU LOSE")
             } else {
                 setText("DRAFT")
