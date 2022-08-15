@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.main img {
+   width: 100%;
+}
+.main button{
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.rock,.scissors {
+    align-self: flex-start;
+}
+
+.paper {
+    align-self: flex-end;
+}
+.rock{
+    border: 10px solid #27ae60;
+}
+.paper{
+    border: 10px solid #e74c3c;
+}
+.scissors{
+    border: 10px solid #3498db;
+}

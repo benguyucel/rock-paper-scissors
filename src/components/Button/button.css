@@ -1,0 +1,57 @@
+img {
+    width: 100%;
+}
+
+img.rotate-x-rock {
+    transform: rotate(90deg);
+}
+
+img.rotate-y-rock {
+
+    transform: rotate(270deg) scaleX(-1)
+}
+img.rotate-y-paper{
+    transform: rotate(0deg) scaleX(-1)
+
+}
+img.rotate-x-paper{
+    transform: rotate(0deg)
+
+}
+img.rotate-x-scissors{
+    transform: rotate(90deg) 
+
+}
+img.rotate-y-scissors{
+    transform: rotate(270deg) scaleX(-1)
+
+}
+
+button.rock,button.scissors,button.paper {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.rock,
+.scissors {
+    align-self: flex-start;
+}
+
+.paper {
+    align-self: flex-end;
+}
+
+.rock {
+    border: 10px solid #27ae60;
+}
+
+.paper {
+    border: 10px solid #e74c3c;
+}
+
+.scissors {
+    border: 10px solid #3498db;
+}
